@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -20,7 +20,7 @@
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
             <label class="search-form__label">
-              <span class="search-form__label-text visually-hidden">Город</span>
+              <span class="search-form__label-text visually-hidden"></span>
               <input
                 type="text"
                 placeholder="Санкт Петербург, например"
@@ -32,7 +32,7 @@
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Время суток</h2>
             <div class="search-form__checkbox-list">
-              <label class="search-form__label">
+              <label class="search-form__label hover">
                 <input
                   type="checkbox"
                   name="time"
@@ -42,7 +42,7 @@
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">Утро</span>
               </label>
-              <label class="search-form__label">
+              <label class="search-form__label hover">
                 <input
                   type="checkbox"
                   name="time"
@@ -52,7 +52,7 @@
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">День</span>
               </label>
-              <label class="search-form__label">
+              <label class="search-form__label hover">
                 <input
                   type="checkbox"
                   name="time"
@@ -64,16 +64,18 @@
               </label>
             </div>
           </fieldset>
-          <button type="submit" class="button search-form__submit-button">
-            Найти
-          </button>
+          <label class="search-form__label hover end">
+            <button type="submit" class="button search-form__submit-button">
+              Найти
+            </button>
+          </label>
         </form>
       </section>
       <section class="content__details">
         <h1 class="title">
           <span class="content__accent">По-</span><br />смотри<br />в окно
         </h1>
-        <div class="content__list-container">
+        <div class="content__list-container custom-scrollbar">
           <ul class="content__list">
             <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
           </ul>
