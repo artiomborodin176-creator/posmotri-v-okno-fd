@@ -211,8 +211,7 @@ ol {
   background-color: #1b1919;
   color: #fff;
   appearance: none;
-  margin: 1px;
-  appearance: none; 
+  margin: 1px; 
 }
 
 .search-form__textfield::placeholder {
@@ -260,7 +259,6 @@ button:hover {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  appearance: none; 
 }
 
 .end {
