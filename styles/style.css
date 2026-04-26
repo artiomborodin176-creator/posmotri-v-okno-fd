@@ -210,8 +210,8 @@ ol {
   border-right: none;
   background-color: #1b1919;
   color: #fff;
+  margin: 1px;
   appearance: none;
-  margin: 1px; 
 }
 
 .search-form__textfield::placeholder {
