@@ -177,9 +177,9 @@ ol {
   width: 196px;
   overflow: hidden;
   display: -webkit-box;
-  line-clamp: 4;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
 }
 
 .search-form__checkbox-list {
